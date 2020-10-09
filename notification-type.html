@@ -73,14 +73,18 @@
         <div class="row">
                	<div class="col-xs-12 col-md-12 col-lg-6">
 
-                
+
                 <!-- the step of the process on this page -->
 
-                
+
 
                 <!--<p>More general information</p>-->
 <h3>Notification type</h3>
-                    
+
+<div class="au-callout">
+Please note: this <abbr title="Maintenance training organisation">MTO</abbr> Notification of training outcomes is the online equavilent of CASA Form 465.
+</div>
+
                                         <div class="au-form-group">
                   <fieldset class="au-fieldset">
                       <legend class="au-fieldset__legend">
@@ -101,7 +105,7 @@
 
                   </fieldset>
                   </div>
-                    
+
                                       <!--  <div class="au-form-group casa-inline-form-group removal-yes casa-hidden">
                        <fieldset class="au-fieldset">
                             <legend class="au-fieldset__legend">
@@ -147,11 +151,11 @@
 
                         </fieldset>
                     </div>
-                    
-                <!-- form group for radio/checkboxes 
 
-                      
-<div class="au-form-group removal-no casa-hidden">     
+                <!-- form group for radio/checkboxes
+
+
+<div class="au-form-group removal-no casa-hidden">
                     <fieldset class="au-fieldset">
                         <legend class="au-fieldset__legend">
                             <h3 class="au-display-sm">Is this report based on a Recognition of Prior Learning assessment of the student's qualifications?</h3>
@@ -161,20 +165,20 @@
                             <input class="au-control-input__input" type="radio" name="radio-ex" id="yes-radio-block" value="rpl-yes">
                                 <label class="au-control-input__text" for="yes-radio-block">Yes</label>
                         </div>
-                        
+
                         <div class="au-control-input au-control-input--block">
                             <input class="au-control-input__input" type="radio" name="radio-ex" id="no-radio-block" value="rpl-no">
                                 <label class="au-control-input__text" for="no-radio-block">No</label>
                         </div>
 
 
-                        
+
                     </fieldset>
-                    </div> 
+                    </div>
 
 
 
-                    
+
                     <div class="au-form-group yes casa-hidden">
 			<h3 class="au-display-sm">Upload evidence of student's qualifications</h3>
 			<br>
@@ -188,12 +192,12 @@
                     <label class="au-label" for="name">User family name</label>
                     <input type="text" class="au-text-input au-text-input--block" id="name">
                  </div>
-                    
+
                     <div class="au-form-group">
                     <label class="au-label" for="arn">User aviation reference number</label>
                     <input type="text" class="au-text-input au-text-input--block" id="arn">
                  </div>
-                    
+
                     <div class="au-form-group">
                     <label class="au-label" for="course-code">Course code</label>
                     <input type="text" class="au-text-input au-text-input--block" id="course-code">
@@ -203,7 +207,7 @@
 
                 <!-- content ends here -->
 
-                <!-- declaration  button 
+                <!-- declaration  button
 
                 <div class="au-callout casa-declaration">
                    		<h3>Declaration</h3>
@@ -230,13 +234,13 @@
 
    				      <div class="au-form-group">
    				           <div id="navigate" "navigate2">
-			    <a href="#" class="au-btn au-btn--primary">Next</a>          
+			    <a href="#" class="au-btn au-btn--primary">Next</a>
             </div>
 	              </div>
                  				               <hr />
             <a href="#" class="au-btn au-btn--secondary">
             Save and exit notification
-            </a>  
+            </a>
 
                 <!-- standard payment button
 
@@ -272,7 +276,7 @@
                $("#navigate a"). click(function(){
 				var radioValue = $("input[name='radio-ex1']:checked"). val();
 				window.location.href=radioValue+".html";
-			 }); 
+			 });
        </script>
    </body>
 </html>
